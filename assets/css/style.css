@@ -1,0 +1,33 @@
+body {
+    background-color: #F6FBF4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #4B8673;
+    border-bottom: 3px solid #F5DF99;
+    width: 100%;
+    height: 6vh;
+
+}
+
+.logo {
+    color: #F5DF99;
+    float: left;
+    font-size: 3em;
+    padding: 2px 0 0 15px;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    color: #F5DF99;
+    display: inline-flex;
+    float: right;
+    font-size: 2em;
+    right: 0;
+    margin: -18px 15px 0 0;
+    text-decoration: none;
+}
+
