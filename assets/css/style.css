@@ -4,6 +4,9 @@ body {
     padding: 0;
 }
 
+
+/* Navbar */
+
 .navbar {
     background-color: #4B8673;
     border-bottom: 3px solid #F5DF99;
@@ -20,14 +23,69 @@ body {
     text-decoration: none;
 }
 
-.social-media {
-    list-style: none;
-    color: #F5DF99;
-    display: inline-flex;
-    float: right;
-    font-size: 2em;
-    right: 0;
-    margin: -18px 15px 0 0;
-    text-decoration: none;
+/* About */
+
+.about {
+    display: flexbox;
+    height: 35vh;
+    width: 100%;
 }
 
+.text {
+    float: left;
+    width: 50%;
+    margin-left: 6%;
+}
+.text h2 {
+    color: #4B8673;
+    border-bottom: 2px solid #F5DF99;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.illustration {
+    float: right;
+    width: 25%;
+    margin: 1% 12% 0 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.left-top {
+    color: #fafafa;
+    font-size: 2rem;
+    background-color: #5FD068;
+    height: 15vh;
+    border-top-left-radius: 15%;
+    border: solid 2px #4B8673;
+}
+.left-bottom {
+    color: #fafafa;
+    font-size: 2rem;
+    background-color: #5FD068;
+    height: 15vh;
+    border-bottom-left-radius: 15%;
+    border: solid 2px #4B8673;
+}
+
+.right-top {
+    color: #fafafa;
+    font-size: 2rem;
+    background-color: #5FD068;
+    height: 15vh;
+    border-top-right-radius: 15%;
+    border: solid 2px #4B8673;
+}
+
+.right-bottom {
+    color: #fafafa;
+    font-size: 2rem;
+    background-color: #5FD068;
+    height: 15vh;
+    border-bottom-right-radius: 15%;
+    border: solid 2px #4B8673;
+}
