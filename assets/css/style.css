@@ -89,3 +89,10 @@ body {
     border-bottom-right-radius: 15%;
     border: solid 2px #4B8673;
 }
+
+/* Units */
+
+.units {
+    font-size: 2rem;
+    margin: 4% 0 0 5%;
+}
