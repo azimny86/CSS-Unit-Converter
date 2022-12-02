@@ -96,3 +96,33 @@ body {
     font-size: 2rem;
     margin: 4% 0 0 5%;
 }
+
+
+/* Footer */
+
+footer {
+    background-color: #4B8673;
+    border-top: 3px solid #F5DF99;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 5vh;
+    bottom: 0;
+}
+
+.social-media {
+    list-style: none;
+    display: inline-flex;
+    letter-spacing: 75px;
+    color: #F5DF99;
+    font-size: 2rem;
+    margin: 7px 0 0 34%;
+}
+ 
+.social-media i {
+    color: #F5DF99;
+}
+
+.social-media i:hover {
+    color: #F6FBF4;
+}
